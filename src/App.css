@@ -3,5 +3,9 @@
     color: white;
     font-family: sans-serif;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
+html,  body{
+    overflow-x: hidden;
+}

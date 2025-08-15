@@ -4,6 +4,7 @@
 .home-content{
     display: flex;
     max-width: 1500px;
+    margin: 0 auto;
     justify-content: center;
 }
 

@@ -25,8 +25,8 @@ function Skills() {
               consistent performance across all browsers.
             </p>
             <div>
-              <p>CSS/CSS3</p>
-              <p>Tailwind CSS</p>
+              <p>✓ CSS/CSS3</p>
+              <p>✓ Tailwind CSS</p>
             </div>
           </div>
         )}
@@ -40,9 +40,9 @@ function Skills() {
               brings my ideas to life on my audience’s screens.
             </p>
             <div>
-              <p>React</p>
-              <p>HTML/HTML5</p>
-              <p>React Query</p>
+              <p>✓ React</p>
+              <p>✓ HTML/HTML5</p>
+              <p>✓ React Query</p>
             </div>
           </div>
         )}
