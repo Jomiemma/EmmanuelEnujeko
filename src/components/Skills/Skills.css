@@ -41,7 +41,8 @@
     flex: 1;
     background-color: #111;
     border-radius: 10px;
-    padding: 50px;
-    font-size: 14px;
+    /* padding: 50px; */
+    font-size: 16px;
+    text-align: left;
     color: white;
 }
