@@ -13,7 +13,7 @@ function Skills() {
         <button onClick={() => setSelectedCategory("FRONTEND")}>
           FRONTEND
         </button>
-        {/* COME BACK AND ADD SOMETHINGS */}
+        {/* COME BACK AND ADD SOMETHINGS Probably github*/}
       </div>
       <div className="skill-right">
         {selectCategory === "CSS FRAMEWORK" && (
