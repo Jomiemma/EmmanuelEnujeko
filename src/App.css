@@ -3,7 +3,7 @@
     color: white;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Change made here */
 }
 
 html,  body{
