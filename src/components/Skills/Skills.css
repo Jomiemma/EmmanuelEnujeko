@@ -1,0 +1,45 @@
+.skill-container {
+    display: flex;
+    padding: 20px 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 700px;
+    padding: 50px 20px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #B388FF;
+
+}
+
+.skill-left button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 18px 20px;
+    border-radius: 6px;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.skill-left button:hover {
+    background-color: #444;
+    color: #B388FF;
+}
+
+.skill-right {
+    flex: 1;
+    background-color: #111;
+    border-radius: 10px;
+    padding: 50px;
+    font-size: 14px;
+    color: white;
+}
