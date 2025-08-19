@@ -36,6 +36,7 @@ body.light .link-container {
 /* Social / external links container */
 .links {
     display: flex;
+    /* justify-content: center; */
     gap: 10px;
     margin-top: 10px;
 }
@@ -49,4 +50,18 @@ body.light .link-container {
 .links a:hover {
     transform: scale(1.2);
     color: #B388FF; /* accent on hover */
+}
+
+@media screen and (max-width: 1024px) {
+    .links {
+        justify-content: center;
+        /* margin-right: 200px; */
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .link-container {
+        margin-left: 20px;
+    }
 }

@@ -14,6 +14,8 @@
 
 #logo {
     height: 40px;
+    border: 2px solid #222;
+    border-radius: 18px;
 }
 
 nav {
@@ -85,7 +87,7 @@ body.light .nav-links.open{
 }
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     nav {
         display: none;
         position: absolute;
@@ -104,6 +106,8 @@ body.light .nav-links.open{
 
     .hamburger {
         display: block;
+        text-align: right;
+        margin-left: auto;
     }
 
     .theme-buttons{

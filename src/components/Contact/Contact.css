@@ -91,6 +91,9 @@
         flex-direction: column;
         gap: 30px;
     }
+    .contact-left{
+        text-align: center;
+    }
 
     .contact-left, .contact-right {
         padding: 20px;
@@ -112,6 +115,10 @@
         flex-direction: column;
         gap: 20px;
         padding: 0 15px;
+    }
+
+    .contact-container {
+        margin-top: 70px;
     }
 
     .contact-left, .contact-right {

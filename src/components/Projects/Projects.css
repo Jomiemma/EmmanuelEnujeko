@@ -1,5 +1,5 @@
 .project-container{
-    margin-top: 150px;
+    margin-top: 100px;
     font-family: sans-serif;
 }
 
@@ -80,6 +80,9 @@
 
 /* Tablet View */
 @media (max-width: 1024px) {
+    .project-container{
+        margin-top: 70px;
+    }
     .display-squares{
         flex: 0 0 45%;
         width: 90%;
