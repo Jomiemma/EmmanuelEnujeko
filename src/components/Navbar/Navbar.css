@@ -9,7 +9,7 @@
     padding: 10px 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
 
 #logo {
@@ -25,7 +25,7 @@ nav {
 }
 
 .nav-item {
-    font-size: 17px;
+    font-size: 17px;  
 }
 
 .nav-item a {
