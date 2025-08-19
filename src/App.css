@@ -1,9 +1,10 @@
 * {
-    background-color: #111;
-    color: white;
+    /* background-color: #111; */
+    /* color: white; */
     font-family: sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box; /* Change made here */
+    transition: all 1s ease;
 }
 
 html,  body{

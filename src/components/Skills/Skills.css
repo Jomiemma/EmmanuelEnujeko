@@ -11,25 +11,49 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 700px;
-    padding: 50px 20px;
-    background-color: #222;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px #B388FF;
+    padding: 40px 25px;
+    border-radius: 12px;
 
+    box-shadow: 
+    0px 8px 16px rgba(0, 0, 0, 0.15),
+    0px 4px 6px rgba(0, 0, 0, 0.10),
+    inset 0px 1px o rgba(255, 255, 255, 0.08);
+
+    background-color: #222;
+    color: #eee;
+}
+/* Light mode */
+body.light .skill-left {
+    background: #fff;
+    color: #222;
+
+    box-shadow: 
+    0 8px 16px rgba(0, 0, 0, 0.10),
+    0 4px 6px rgba(0, 0, 0, 0.06),
+    inset 0 10px 0 rgba(255, 255, 255, 0.9);
+
+}
+
+body.light .skill-left button {
+    background-color: #f5f5f5;
+    color: #222;
+    border: 1px solid #ddd;
+}
+
+body.light .skill-left button:hover {
+    background-color: #eaeaea;
+    color: #B388FF;
 }
 
 .skill-left button {
     background-color: #333;
     color: white;
     border: none;
-    padding: 18px 20px;
+    padding: 18px 200px;
     border-radius: 6px;
-    justify-content: center;
-    text-align: center;
     font-size: 14px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .skill-left button:hover {
@@ -39,10 +63,43 @@
 
 .skill-right {
     flex: 1;
-    background-color: #111;
     border-radius: 10px;
-    /* padding: 50px; */
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 500;
     text-align: left;
-    color: white;
+}
+
+/* Tablet View */
+@media (max-width: 1024px) {
+    .skill-container{
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .skill-left button {
+        padding: 15px 120px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .skill-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-left {
+        width: 100%;
+        padding: 20px;
+    }
+    .skill-left button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .skill-right {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 14px;
+    }
 }

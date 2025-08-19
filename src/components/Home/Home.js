@@ -1,13 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-import {
-  FaWhatsapp,
-  FaTwitter,
-  FaLinkedin,
-  FaGithub,
-  FaFacebook,
-} from "react-icons/fa";
+import FindMe from "../../reusables/FindMe";
 
 function Home() {
   return (
@@ -43,46 +37,7 @@ function Home() {
             professional, fully-featured portfolio that reflects my skills and
             style.
           </p>
-          <div className="link-container">
-            <p className="link-txt">Find me online.</p>
-            <div className="links">
-              <a
-                href="https://wa.me/234XXXXXXXXXX"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaWhatsapp />
-              </a>
-              <a
-                href="https://twitter.com/yourhandle"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaTwitter />
-              </a>
-              <a
-                href="https://linkedin.com/in/yourhandle"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedin />
-              </a>
-              <a
-                href="https://github.com/yourhandle"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="https://facebook.com/yourhandle"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaFacebook />
-              </a>
-            </div>
-          </div>
+          <FindMe />
         </div>
         <div className="home-right">
           <img src="/images/profile.png" alt="profile" id="profile-image" />

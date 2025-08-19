@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import FindMe from "../../reusables/FindMe";
 // import { EmailJSResponseStatus } from "emailjs-com";
 
 function Contact() {
@@ -33,7 +34,8 @@ function Contact() {
       <div className="contact-content">
         <div className="contact-left">
           <h2>Emmanuel Enujeko</h2>
-          <p>Something | Something | Something</p>
+          <FindMe />
+          {/* <p>Something | Something | Something</p> */}
         </div>
         <div className="contact-right">
           <h2>Contact Me</h2>

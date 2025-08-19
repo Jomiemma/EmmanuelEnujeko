@@ -8,7 +8,7 @@ function Projects() {
         <p className="port-head">VISIT MY PORTFOLIO AND DROP YOUR FEEDBACK</p>
         <p className="port-intro">My Projects</p>
       </div>
-      <div className="display-containers">
+      <div className="display-container">
         <div className="display-squares">
           <a
             href="https://todo-app-test-lac.vercel.app/"

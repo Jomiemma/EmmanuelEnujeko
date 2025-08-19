@@ -19,11 +19,10 @@
 nav {
     display: flex;
     gap: 20px;
-    position: relative;
+    transition: max-height 0.3s ease;
 }
 
 .nav-item {
-    position: relative;
     font-size: 17px;
 }
 
@@ -31,22 +30,87 @@ nav {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .nav-item a:hover {
-    text-decoration: 1.5px underline blueviolet;  
-    transition: all 0.3s ease; 
+    text-decoration: underline 2px  blueviolet;
 }
 
 .theme-buttons button {
-     padding: 10px 24px;
+     padding: 8px 12px;
+     font-size: 12px;
+     background-color: blueviolet;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    /* font-weight: 600; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Light mode styling */
+body.light .nav-container {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+}
+
+body.light .nav-item a {
+  color: #222;
+}
+
+body.light .hamburger {
+    color: black;
+}
+
+body.light .nav-links.open{
+    background-color: #eee;
+    color: #222;
+}
+
+/*Hamburger default */
+.hamburger {
+    display: none;
+    font-size: 26px;
+    background: none;
     border: none;
     color: white;
-    font-weight: 600;
     cursor: pointer;
-    border-radius: 6px;
-    background-color: blueviolet;
-    font-size: 12px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Tablet */
+@media(max-width: 1024px) {
+    .nav-item { font-size: 15px; }
+    nav { gap: 12px; }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #111;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0;
+        gap: 15px;
+    }
+    .nav-links.open{
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .theme-buttons{
+        display: block;
+    }
+    .theme-buttons button{
+        font-size: 10px;
+        padding: 6px 10px;
+    }
 }
