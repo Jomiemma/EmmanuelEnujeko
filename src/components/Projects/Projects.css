@@ -98,6 +98,9 @@
     .port-intro{
         font-size: 40px;
     }
+     .display-squares img:hover{
+    transform: scale(1.05);
+}
 }
 
 /* Mobile View */
