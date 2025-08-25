@@ -121,4 +121,8 @@
     .port-description {
         font-size: 14px;
     }
+
+    .display-squares img:hover{
+    transform: scale(1.03);
+}
 }
