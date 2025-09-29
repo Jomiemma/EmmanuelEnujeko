@@ -13,6 +13,9 @@ function Skills() {
         <button onClick={() => setSelectedCategory("FRONTEND")}>
           FRONTEND
         </button>
+        <button onClick={() => setSelectedCategory("FIREBASE")}>
+          FIREBASE
+        </button>
         {/* COME BACK AND ADD SOMETHINGS Probably github*/}
       </div>
       <div className="skill-right">
@@ -43,6 +46,26 @@ function Skills() {
               <p>✓ React</p>
               <p>✓ HTML/HTML5</p>
               <p>✓ React Query</p>
+            </div>
+          </div>
+        )}
+        {selectCategory === "FIREBASE" && (
+          <div>
+            <p>
+              Firebase is a powerful backend-as-a-service platform that
+              simplifies authentication, database management, and hosting. My
+              experience with Firebase helps me integrate secure login systems,
+              manage user data effectively, and connect frontend apps to
+              scalable cloud services without building a server from scratch.
+            </p>
+            <div>
+              <p>✓ Firebase Authentication (Email/Password & Google Sign-In)</p>
+              <p>✓ Firestore Database (CRUD operations & data modeling)</p>
+              <p>
+                ✓ Security with Firestore Rules & login attempt limits & account
+                security
+              </p>
+              <p>✓ Real-time data syncing between client and backend</p>
             </div>
           </div>
         )}

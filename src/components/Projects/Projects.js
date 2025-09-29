@@ -73,7 +73,6 @@ function Projects() {
             target="_blank"
             rel="noopener noreferrer"
             className="port-link"
-            // className="port-description"
           >
             <p className="port-description">
               A Markdown Previewer built with React. Users can type Markdown and
@@ -144,6 +143,32 @@ function Projects() {
             <p className="port-description">
               A clock application built with React. Displays current time and
               supports multiple formats.
+            </p>
+          </a>
+        </div>
+        <div className="display-squares">
+          <a
+            href="https://e-commerce-site-zeta-ivory.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="port-link"
+          >
+            <img src="./images/e-commerce-app.png" />
+          </a>
+          <p id="port-head-txt">E-commerce</p>
+          <a
+            href="https://e-commerce-site-zeta-ivory.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="port-link"
+          >
+            <p className="port-description">
+              An e-commerce site built with React and Firebase, featuring
+              product listings, a responsive shopping cart, and secure
+              authentication. The app supports real-time data updates, smooth
+              navigation, and a clean user interface. Firebase powers the
+              backend with database management, hosting, and login systems for a
+              reliable shopping experience.
             </p>
           </a>
         </div>

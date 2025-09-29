@@ -44,7 +44,9 @@ function Navbar() {
         </div>
       </nav>
       <div className="theme-buttons">
-        {/* <button onClick={toggleTheme}>{theme === "dark" ? "☀️" : "🌙"}</button> */}
+        <button onClick={toggleTheme}>
+          {theme === "dark" ? "Light Mode☀️" : "Dark Mode🌙"}
+        </button>
       </div>
     </section>
   );
