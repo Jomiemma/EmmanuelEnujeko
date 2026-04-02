@@ -87,7 +87,7 @@ function Projects() {
             rel="noopener noreferrer"
             className="port-link"
           >
-            <img src="./images/drum-machine.png" />
+            <img src="./images/drum-machine.png" alt="" />
           </a>
           <p id="port-head-txt">Drum Machine</p>
           <a
@@ -109,7 +109,7 @@ function Projects() {
             rel="noopener noreferrer"
             className="port-link"
           >
-            <img src="./images/javascript-calc.png" />
+            <img src="./images/javascript-calc.png"alt=""  />
           </a>
           <p id="port-head-txt">Javascript Calculator</p>
           <a
@@ -131,7 +131,7 @@ function Projects() {
             rel="noopener noreferrer"
             className="port-link"
           >
-            <img src="./images/clockwork-app.png" />
+            <img src="./images/clockwork-app.png" alt=""  />
           </a>
           <p id="port-head-txt">Clock App</p>
           <a
@@ -153,7 +153,7 @@ function Projects() {
             rel="noopener noreferrer"
             className="port-link"
           >
-            <img src="./images/e-commerce-app.png" />
+            <img src="./images/e-commerce-app.png"  alt="" />
           </a>
           <p id="port-head-txt">E-commerce</p>
           <a

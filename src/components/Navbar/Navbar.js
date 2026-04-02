@@ -16,12 +16,12 @@ function Navbar() {
     }
   }, []);
 
-  const toggleTheme = () => {
-    const newTheme = theme === "dark" ? "light" : "dark";
-    setTheme(newTheme);
-    document.body.className = newTheme;
-    localStorage.setItem("theme", newTheme);
-  };
+  // const toggleTheme = () => {
+  //   const newTheme = theme === "dark" ? "light" : "dark";
+  //   setTheme(newTheme);
+  //   document.body.className = newTheme;
+  //   localStorage.setItem("theme", newTheme);
+  // };
 
   return (
     <section className="nav-container">
